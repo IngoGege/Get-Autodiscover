@@ -256,8 +256,8 @@ begin
             }
 
             # parameters for auth code flow
-            $RedirectURI = 'https://login.microsoftonline.com/common/oauth2/nativeclient'
-            $ClientID = '1b730954-1685-4b74-9bfd-dac224a7b894'
+            $RedirectURI = 'urn:ietf:wg:oauth:2.0:oob'
+            $ClientID = 'd3590ed6-52b3-4102-aeff-aad2292ab01c'
             $state = Get-Random
             $authURI = "https://login.microsoftonline.com/Common"
             $authURI += "/oauth2/authorize?client_id=$ClientId"
