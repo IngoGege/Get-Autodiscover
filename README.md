@@ -21,13 +21,13 @@
 
 ### -EmailAddress
 
-The parameter EmailAddress defines the e-mail address for the object we want the configuration.
+The required parameter EmailAddress defines the e-mail address for the object we want the configuration.
 
 ## Optional Parameters
 
 ### -Server
 
-This required parameter Server overrides the automation process of finding the Autodiscover endpoint. This is the hostname you will send the request to. Note: Cannot be used in combination with FromAD.
+This parameter Server overrides the automation process of finding the Autodiscover endpoint. This is the hostname you will send the request to. Note: Cannot be used in combination with FromAD.
 
 ### -Credentials
 
